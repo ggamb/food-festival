@@ -2,23 +2,30 @@
   "name": "food-festival",
   "version": "1.0.0",
   "description": "��#\u0000 \u0000f\u0000o\u0000o\u0000d\u0000-\u0000f\u0000e\u0000s\u0000t\u0000i\u0000v\u0000a\u0000l\u0000\r\u0000 \u0000",
-  "main": "index.js",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.9.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --watch",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ggamb/food-festival.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ggamb/food-festival/issues"
   },
   "homepage": "https://github.com/ggamb/food-festival#readme",
-  "devDependencies": {
-    "webpack": "^4.46.0",
-    "webpack-cli": "^4.6.0"
-  }
+  "keywords": []
 }
