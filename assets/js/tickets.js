@@ -25,4 +25,4 @@ $(document).ready(function () {
         }
         purchaseBtn.addEventListener("click", purchaseTicket);
     }
-}
+});
